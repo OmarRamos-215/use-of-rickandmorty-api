@@ -1,0 +1,46 @@
+body{
+    background-color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Character_container{
+    background-color: lightgrey;
+    margin-left: 10px;
+    margin: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    transition: 0.3s;
+    width: 720px;
+    height: 360px;
+}
+
+.Character_link{
+    color: black;
+    text-decoration: none;
+}
+
+.Character_image{
+    padding: 25px 5px;
+    float: left;
+
+}
+
+.Character_info{
+    font-size: large;
+    float: left;
+    padding-left: 5px;
+}
+
+.Title_container{
+    padding-left: 10px;
+    font-style: italic;
+}
+
+.Character_container_detail{
+    background-color: lightgrey;
+    margin-left: 10px;
+    margin: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    transition: 0.3s;
+    width: 720px;
+    height: 480px;
+}
