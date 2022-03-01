@@ -17,7 +17,7 @@ const DetailCharacter= () =>{
             setLocation(character.location)
         }
         fetchCharacter()
-    },[])
+    })
 
     return(
         <React.Fragment>
