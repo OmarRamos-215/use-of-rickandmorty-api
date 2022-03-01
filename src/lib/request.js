@@ -6,7 +6,7 @@ class Http{
 
     get_characters= async () =>{
         try{
-            const request= await fetch(`${url}`)
+            const request= await fetch(`${url}?page=21`)
             const response= await request.json()
             return response.results
 
